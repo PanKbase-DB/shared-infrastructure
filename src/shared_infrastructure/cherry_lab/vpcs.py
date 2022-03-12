@@ -1,6 +1,6 @@
 from aws_cdk import aws_ec2
 
-from construct import Construct
+from constructs import Construct
 
 
 class VPCs(Construct):
