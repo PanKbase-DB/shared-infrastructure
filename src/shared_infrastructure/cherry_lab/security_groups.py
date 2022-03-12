@@ -1,9 +1,9 @@
-import aws_cdk as cdk
-
 from aws_cdk import aws_ec2
 
+from construct import Construct
 
-class SecurityGroups(cdk.Construct):
+
+class SecurityGroups(Construct):
 
     def __init__(self, scope, construct_id, **kwargs):
         super().__init__(scope, construct_id, **kwargs)
