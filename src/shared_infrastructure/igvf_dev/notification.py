@@ -3,7 +3,7 @@ from constructs import Construct
 from aws_cdk.aws_chatbot import SlackChannelConfiguration
 
 
-class Notfication(Construct):
+class Notification(Construct):
 
     def __init__(self, scope, construct_id, **kwargs):
         super().__init__(scope, construct_id, **kwargs)
