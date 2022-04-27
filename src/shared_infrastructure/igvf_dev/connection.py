@@ -1,7 +1,7 @@
 from constructs import Construct
 
 
-class CodeStarConnection:
+class CodeStarConnection(Construct):
 
     def __init__(self, scope, construct_id, **kwargs):
         super().__init__(scope, construct_id, **kwargs)
