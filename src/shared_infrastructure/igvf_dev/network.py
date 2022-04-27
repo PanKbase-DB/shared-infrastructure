@@ -3,7 +3,7 @@ from constructs import Construct
 from aws_cdk.aws_ec2 import Vpc
 
 
-class DemoVpc(Construct):
+class DemoNetwork(Construct):
 
     def __init__(self, scope, construct_id, **kwargs):
         super().__init__(scope, construct_id, **kwargs)
