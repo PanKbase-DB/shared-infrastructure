@@ -1,3 +1,6 @@
+from constructs import Construct
+
+
 class CodeStarConnection:
 
     def __init__(self, scope, construct_id, **kwargs):
