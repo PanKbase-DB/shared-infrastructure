@@ -1,6 +1,7 @@
 class CodeStarConnection:
 
-    def __init__(self):
+    def __init__(self, scope, construct_id, **kwargs):
+        super().__init__(scope, construct_id, **kwargs)
         self.arn = (
             'arn:aws:codestar-connections:'
             'us-west-2:109189702753:'
