@@ -1,6 +1,6 @@
 from constructs import Construct
 
-from aws_cdk import aws_ec2
+from aws_cdk.aws_ec2 import Vpc
 
 
 class DemoVpc(Construct):
