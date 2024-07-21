@@ -13,7 +13,7 @@ class Notification(Construct):
         super().__init__(scope, construct_id, **kwargs)
         self.encode_dcc_chatbot = SlackChannelConfiguration.from_slack_channel_configuration_arn(
             self,
-            'pankbase-aws-chatbot',
+            'EncodeDCCChatbot',
             'arn:aws:chatbot::654654139991:chat-configuration/slack-channel/pankbase-aws-chatbot'
         )
         self.alarm_notification_topic = Topic.from_topic_arn(
