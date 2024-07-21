@@ -23,7 +23,7 @@ class PortalCredentials(Construct):
         self.indexing_service_key = Secret.from_secret_complete_arn(
             self,
             'IndexingServiceKey',
-            'arn:aws:secretsmanager:us-west-2:109189702753:secret:indexing-service-portal-key-BdNl8x',
+            'arn:aws:secretsmanager:us-west-2:654654139991:secret:indexing-service-portal-key-JlJH0Z',
         )
 
 
