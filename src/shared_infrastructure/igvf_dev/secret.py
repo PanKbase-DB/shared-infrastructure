@@ -12,7 +12,7 @@ class DockerHubCredentials(Construct):
         self.secret = Secret.from_secret_complete_arn(
             self,
             'DockerSecret',
-            'arn:aws:secretsmanager:us-west-2:654654139991:secret:docker-hub-credentials-MWF0Mo',
+            'arn:aws:secretsmanager:us-west-2:654654139991:secret:docker-hub-credential-jWLffP',
         )
 
 
