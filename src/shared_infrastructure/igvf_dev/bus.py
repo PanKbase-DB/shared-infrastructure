@@ -12,5 +12,5 @@ class Bus(Construct):
         self.default = EventBus.from_event_bus_arn(
             self,
             'DefaultBus',
-            'arn:aws:events:us-west-2:109189702753:event-bus/default'
+            'arn:aws:events:us-west-2:654654139991:event-bus/default'
         )

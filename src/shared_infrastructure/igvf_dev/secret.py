@@ -12,7 +12,7 @@ class DockerHubCredentials(Construct):
         self.secret = Secret.from_secret_complete_arn(
             self,
             'DockerSecret',
-            'arn:aws:secretsmanager:us-west-2:109189702753:secret:docker-hub-credentials-EStRH5',
+            'arn:aws:secretsmanager:us-west-2:654654139991:secret:docker-hub-credentials-MWF0Mo',
         )
 
 
@@ -34,7 +34,7 @@ class UploadFilesUserAccessKeys(Construct):
         self.secret = Secret.from_secret_complete_arn(
             self,
             'AccessKeyAndSecretAccessKey',
-            'arn:aws:secretsmanager:us-west-2:109189702753:secret:upload-igvf-files-user-access-key-secret-UERCA7'
+            'arn:aws:secretsmanager:us-west-2:654654139991:secret:upload-pankbase-files-user-access-key-secret-tBv0C3'
         )
 
 
@@ -45,5 +45,5 @@ class UploadRestrictedFilesUserAccessKeys(Construct):
         self.secret = Secret.from_secret_complete_arn(
             self,
             'AccessKeyAndSecretAccessKey',
-            'arn:aws:secretsmanager:us-west-2:109189702753:secret:upload-igvf-restricted_files-user-access-key-secret-jHXmVk'
+            'arn:aws:secretsmanager:us-west-2:654654139991:secret:upload-pankbase-restricted_files-user-access-key-secret-6caW4d'
         )
