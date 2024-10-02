@@ -12,7 +12,7 @@ class DockerHubCredentials(Construct):
         self.secret = Secret.from_secret_complete_arn(
             self,
             'DockerSecret',
-            'arn:aws:secretsmanager:us-west-2:920073238245:secret:docker-hub-credentials-BODcWa',
+            'arn:aws:secretsmanager:us-west-2:565393070554:secret:docker-pankbase-db-joCYc5',
         )
 
 
@@ -23,7 +23,7 @@ class PortalCredentials(Construct):
         self.indexing_service_key = Secret.from_secret_complete_arn(
             self,
             'IndexingServiceKey',
-            'arn:aws:secretsmanager:us-west-2:920073238245:secret:indexing-service-portal-key-VNaZJw',
+            'arn:aws:secretsmanager:us-west-2:565393070554:secret:indexing-service-portal-pQ7RjP',
         )
 
 
@@ -34,7 +34,7 @@ class UploadFilesUserAccessKeys(Construct):
         self.secret = Secret.from_secret_complete_arn(
             self,
             'AccessKeyAndSecretAccessKey',
-            'arn:aws:secretsmanager:us-west-2:920073238245:secret:upload-igvf-files-user-access-key-secret-zoV8fQ',
+            'arn:aws:secretsmanager:us-west-2:565393070554:secret:upload-pankbase-files-user-access-key-secret-SRRgkH',
         )
 
 
@@ -45,5 +45,5 @@ class UploadRestrictedFilesUserAccessKeys(Construct):
         self.secret = Secret.from_secret_complete_arn(
             self,
             'AccessKeyAndSecretAccessKey',
-            'arn:aws:secretsmanager:us-west-2:920073238245:secret:upload-igvf-restricted-files-user-access-key-secret-O5b9A6',
+            'arn:aws:secretsmanager:us-west-2:565393070554:secret:upload-pankbase-restricted-files-user-access-key-secret-DWPFVb',
         )
