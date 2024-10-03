@@ -19,5 +19,5 @@ class Notification(Construct):
         self.alarm_notification_topic = Topic.from_topic_arn(
             self,
             'AlarmNotificationTopic',
-            topic_arn='arn:aws:chatbot::495599754696:NotificationStack-AlarmNotificationTopic58BFACC9-LxpkntzBTvOe'
+            topic_arn='arn:aws:sns:us-west-2:565393070554:NotificationStack-AlarmNotificationTopic58BFACC9-LxpkntzBTvOe'
         )
