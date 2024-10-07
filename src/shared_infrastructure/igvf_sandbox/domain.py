@@ -14,7 +14,7 @@ class Domain(Construct):
         self.certificate = Certificate.from_certificate_arn(
             self,
             'DomainCertificate',
-            'arn:aws:acm:us-west-2:565393070554:certificate/3bf0b979-ce8d-487a-87ea-3118ccb82750',
+            'arn:aws:acm:us-west-2:565393070554:certificate/951e1396-3f9a-40be-81e7-a024f4e4a269',
         )
         self.zone = HostedZone.from_lookup(
             self,
